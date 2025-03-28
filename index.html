@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Interactive Boxes</title>
+</head>
+<body>
+
+  <p style="color: green;text-align: center;">Bundle & Save</p>
+<div class="container">
+  
+  <!-- <div class="box" onclick="toggleBox(1)"> -->
+    <!-- This is box 1 -->
+
+    <label class="box" onclick="toggleBox(1)" for="pair1">
+      <div class="option-container">
+          <div class="option-left">
+              <input type="radio" name="pair" id="pair1" >
+              <div>
+                  <span class="pair-text">1 Pair</span>
+                  <br>
+                  <span class="price1">DKK 195.00</span>
+              </div>
+          </div>
+          <div class="option-right">
+              <span class="discount1">50% OFF</span>
+              <br>
+          </div>
+      </div>
+  
+   
+    <div class="box-content" id="box1">
+        <small><span style=" padding-left: 5.6%;">Size</span></small>
+        <small><span style=" padding-left: 4%;">Color</span></small>
+      <div class="option-row">
+        
+        <span>#1</span>
+        <select>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+        </select>
+        <select>
+          <option>Colour</option>
+          <option>Red</option>
+          <option>Blue</option>
+          <option>Green</option>
+        </select>
+      </div>
+      <div class="option-row">
+        <span>#2</span>
+        <select>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+        </select>
+        <select>
+          <option>Colour</option>
+          <option>Red</option>
+          <option>Blue</option>
+          <option>Green</option>
+        </select>
+      </div>
+    </div>
+</label>
+
+ <!-- This is box 2 -->
+
+    <label class="box" onclick="toggleBox(2)" for="pair2"> 
+    <div class="option-container">
+      <div class="option-left">
+          <input type="radio" name="pair" id="pair2">
+          <label for="pair2">
+              <span class="pair-text">2 Pair</span>
+              <br>
+              <span class="price1">DKK 345.00</span>
+          </label>
+      </div>
+      <div class="option-right">
+        
+        <br>
+       <small><s><span class="discount1" style="color:#000; opacity: 0.5;">DKK 195.00</span></s></small> 
+    </div>
+      <div class="option-right">
+        
+          <span class="popular1">Most Popular</span>
+          <br>
+          <span class="discount1">40% OFF</span>
+      </div>
+  </div>
+    <div class="box-content" id="box2">
+      <small><span style=" padding-left: 5.6%;">Size</span></small>
+      <small><span style=" padding-left: 4%;">Color</span></small>
+      <div class="option-row">
+        <span>#1</span>
+        <select>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+        </select>
+        <select>
+          <option>Colour</option>
+          <option>Red</option>
+          <option>Blue</option>
+          <option>Green</option>
+        </select>
+      </div>
+      <div class="option-row">
+        <span>#2</span>
+        <select>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+        </select>
+        <select>
+          <option>Colour</option>
+          <option>Red</option>
+          <option>Blue</option>
+          <option>Green</option>
+        </select>
+      </div>
+    </div>
+   </label>
+ <!-- This is box 3 -->
+
+   <label class="box" onclick="toggleBox(3)" for="pair3">
+    <div class="option-container">
+        <div class="option-left">
+            <input type="radio" name="pair" id="pair3" >
+            <div>
+                <span class="pair-text">3 Pair</span>
+                <br>
+                <span class="price1">DKK 528.00</span>
+            </div>
+        </div>
+        <div class="option-right">
+            <span class="discount1">60% OFF</span>
+            <br>
+        </div>
+    </div>
+
+
+ 
+  <div class="box-content" id="box3">
+    <small><span style=" padding-left: 5.6%;">Size</span></small>
+    <small><span style=" padding-left: 4%;">Color</span></small>
+    <div class="option-row">
+      <span>#1</span>
+      <select>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+      </select>
+      <select>
+        <option>Colour</option>
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Green</option>
+      </select>
+    </div>
+    <div class="option-row">
+      <span>#2</span>
+      <select>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+      </select>
+      <select>
+        <option>Colour</option>
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Green</option>
+      </select>
+    </div>
+  </div>
+</label>
+
+    <!-- Total and Cart -->
+    <div class="summary">
+      <div class="shipping">Free 2 Day Shipping</div>
+      <div class="total">Total: <strong>DKK 360.00</strong></div>
+    </div>
+  
+    <button class="add-to-cart">+ Add to Cart</button>
+    <small><p style="text-align: end;">&copy;Powered by Pumper</p></small>
+  </div>
+  
+
+
+<script src="script.js"></script>
+</body>
+</html>

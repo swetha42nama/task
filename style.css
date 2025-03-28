@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .box-header {
+    padding: 16px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+
+  .box-content {
+    padding: 16px;
+    background-color: #f0fdfa;
+    display: none;
+  }
+  
+  .option-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .option-row select {
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .price {
+    display: block;
+  }
+
+  .discount {
+    color: purple;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .popular {
+    color: green;
+    font-weight: bold;
+    display: inline;
+  }
+
+
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+  }
+  
+  .shipping {
+    color: #1dbf73;
+  }
+  
+  .add-to-cart {
+    background-color: #1dbf73;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 12px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #17a763;
+  }
+  .currency{
+    display: flex;
+    gap: 100px;
+  }
+  .discountt {
+    color: green;
+    font-weight: bold;
+    /* gap: 100px */
+    padding-left: 60%;
+    
+  }
+  .dummy{
+    display: inline;
+    color: aqua;
+  }
+  .pair-text {
+    font-size: 16px;
+}
+.price1 {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+.option-right {
+  text-align: right;
+}
+
+.popular1 {
+  color: green;
+  font-weight: bold;
+}
+
+.discount1 { 
+  font-weight: bold;
+}
+.option-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.option-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
