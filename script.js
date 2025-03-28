@@ -10,23 +10,3 @@ function toggleBox(id) {
   }
   
 
-// function expandBox(selected) {
-//   const boxes = document.querySelectorAll('.box');
-//   const contents = document.querySelectorAll('.content');
-
-//   boxes.forEach((box, index) => {
-//     box.classList.remove('active');
-//     contents[index].style.display = 'none';
-//   });
-
-//   const selectedBox = document.getElementById(`box-${selected}`);
-//   const selectedContent = document.getElementById(`content-${selected}`);
-
-//   if (selectedBox) {
-//     selectedBox.checked = true;
-//     boxes[selected - 1].classList.add('active');
-//     if (selectedContent) {
-//       selectedContent.style.display = 'block';
-//     }
-//   }
-// }
